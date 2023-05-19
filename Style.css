@@ -11,7 +11,7 @@
     --fonte-primaria: 'Inter', sans-serif;
 }
 
-.cabecalho {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,12 +19,12 @@
     margin: 2em;
 }
 
-.cabecalho-menu {
+.menu {
     text-decoration: none;
    padding-right: 25em;
 }
 
-.cabecalho-menu-link {
+.menu-link {
     font-family: var(--fonte-primaria);
     font-size: 16px;
     font-weight: 500;
@@ -33,13 +33,13 @@
     padding: 0 1.5em;
 }
 
-.cabecalho-botoes {
+.botoes {
     font-family: var(--fonte-primaria);
     font-size: 16px;
     font-weight: 500;   
 }
 
-.cabecalho-botao-1, .cabecalho-botao-2 {
+.botao-1, .botao-2 {
     text-decoration: none;
     padding: 0 0.5em;
     font-size: 16px;
@@ -47,13 +47,40 @@
     padding: 0 1.5em;
 }
 
-.cabecalho-botao-1 {
+.botao-1 {
     color: var(--cor-azul-claro);
+    border: none;
+    background: none;
 }
 
-.cabecalho-botao-2 {
+.botao-2 {
     background-color: var(--cor-vermelha);
     color: var(--cor-branca);
     padding: 0.5em;
     border-radius: 6px;
+    border: none;  
+}
+
+.primeira-seção {
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    padding: 5rem;
+}
+
+.primeira-seção h2 {
+    font-size: 16px;
+    color: var(--cor-vermelha)
+}
+
+.primeira-seção h1 {
+    font-size: 48px;
+    color: var(--cor-hover)
+}
+
+.primeira-seção p {
+    font-size: 20px;
+    font-weight: 400;
+    color:var(--cor-azul-claro);
+    line-height: 1.5;
 }
