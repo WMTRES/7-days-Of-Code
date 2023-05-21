@@ -21,7 +21,7 @@ nav {
 
 .menu {
     text-decoration: none;
-   padding-right: 25em;
+    padding-right: 25em;
 }
 
 .menu-link {
@@ -36,14 +36,15 @@ nav {
 .botoes {
     font-family: var(--fonte-primaria);
     font-size: 16px;
-    font-weight: 500;   
+    font-weight: 500;
 }
 
-.botao-1, .botao-2 {
+.botao-1,
+.botao-2 {
     text-decoration: none;
     padding: 0 0.5em;
     font-size: 16px;
-    font-weight: 500; 
+    font-weight: 500;
     padding: 0 1.5em;
 }
 
@@ -58,7 +59,7 @@ nav {
     color: var(--cor-branca);
     padding: 0.5em;
     border-radius: 6px;
-    border: none;  
+    border: none;
 }
 
 .primeira-seção {
@@ -68,7 +69,7 @@ nav {
     padding: 5rem;
 }
 
-.primeira-seção h2 {
+.primeira-seção span {
     font-size: 16px;
     color: var(--cor-vermelha)
 }
@@ -81,6 +82,33 @@ nav {
 .primeira-seção p {
     font-size: 20px;
     font-weight: 400;
-    color:var(--cor-azul-claro);
+    color: var(--cor-azul-claro);
     line-height: 1.5;
+}
+
+.segunda-seção {
+    display: flex;
+    justify-content:space-evenly;
+    font-family: var(--fonte-primaria);
+}
+
+.segunda-seção h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-vermelha);
+    margin-bottom: 10px;
+}
+
+.segunda-seção h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-azul);
+    margin-top: 5px;
+   
+}
+
+.segunda-seção p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-azul-claro)
 }
